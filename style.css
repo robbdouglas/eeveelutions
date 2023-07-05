@@ -1,0 +1,110 @@
+:root {
+  font-size: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR */
+
+.test-nav {
+  background-color: black;
+  font-size: 2rem;
+  text-align: center;
+  padding: 10px 30px;
+  /* NAV FIXIERT */
+  position: fixed;
+  right: 0px;
+  left: 0px;
+  /* NAV LEISTE IMMER IM VORDERGRUND */
+  z-index: 99;
+}
+
+.test-nav a {
+  color: #ffeedd;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 15px;
+}
+
+.test-nav a:hover {
+  color: green;
+}
+
+/* MAIN */
+
+main {
+  min-height: 100vh;
+  background-image: url("./images/eeveelutions-pokemon.gif");
+  background-position: center;
+  background-size: auto;
+  background-repeat: repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 20rem;
+}
+
+/* SECTIONS GENERAL*/
+
+section {
+  min-height: 100vh;
+  background-position: center;
+  background-size: auto;
+  background-repeat: repeat;
+  /* border: 2px solid red; */
+}
+
+/* AQUANA */
+
+#aquana {
+  background-image: url("./images/aquali-pokemon.gif");
+  b
+}
+
+/* BLITZA */
+
+#blitza {
+  background-image: url("./images/jolteon-pokemon.gif.gif");
+}
+
+/* FLAMARA */
+
+#flamara {
+  background-image: url("./images/flareon-pokémon-flareon.gif");
+}
+
+/* PSIANA */
+
+#psiana {
+  background-image: url("./images/espeon-dance.gif");
+}
+
+/* NACHTARA */
+
+#nachtara {
+  background-image: url("./images/umbreon-dark-type.gif");
+}
+
+/* FOLIPURBA */
+
+#folipurba {
+  background-image: url("./images/upset-disgust.gif");
+}
+
+/* GLAZIOLA */
+
+#glaziola {
+  background-image: url("./images/glaceon-pretty.gif");
+}
+
+/* FEELINARA */
+
+#feelinara {
+  background-image: url("./images/wink-sylveon.gif");
+}
