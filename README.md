@@ -1,3 +1,3 @@
 # EEVEELUTIONS!
 
-[Zur Seite](https://robbdouglas.github.io/eeveelutions/)
+No real project - just to practise CSS
